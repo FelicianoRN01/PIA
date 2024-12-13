@@ -19,3 +19,6 @@ Descripcion de las columnas:
 17. Recovery Rate (%): Porcentaje de los pacientes que logran recuperarse de la enfermedad.
 18. DALYs: Años de vida ajustados por discapacidad (por sus siglas en inglés, Disability-Adjusted Life Years), una medida que combina el impacto de la mortalidad y la morbilidad.
 19. Improvement in 5 Years (%): Porcentaje de mejora en las estadísticas relacionadas con la enfermedad en un periodo de cinco años.
+
+## IMPORTANTE COGER EL CSV DESDE EL ENLACE DE KAGGLE
+Descargar CSV desde Kaggle este enlace https://www.kaggle.com/datasets/malaiarasugraj/global-health-statistics?select=Global+Health+Statistics.csv
