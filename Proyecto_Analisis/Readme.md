@@ -1,27 +1,22 @@
-Descripcion de las columnas:
+# Descripcion de las columnas:
 
-1. Country: El país al que se refieren los datos.
-2. Year: El año en que se recopilaron los datos.
-3. Disease Name: Nombre de la enfermedad sobre la que se están reportando estadísticas.
-4. Disease Category: Clasificación de la enfermedad, por ejemplo, infecciosa, crónica, genética, etc.
-5. Prevalence Rate (%): Porcentaje de la población total que padece la enfermedad en un momento dado.
-6. Incidence Rate (%): Porcentaje de nuevos casos de la enfermedad dentro de un periodo específico.
-7. Mortality Rate (%): Porcentaje de la población afectada por la enfermedad que ha fallecido debido a ella.
-8. Age Group: Grupo etario afectado por la enfermedad (e.g., niños, adultos, ancianos).
-9. Gender: Género afectado por la enfermedad (e.g., masculino, femenino, ambos).
-10. Population Affected: Número de personas afectadas por la enfermedad en la población.
-11. Healthcare Access (%): Porcentaje de la población con acceso a servicios de salud.
-12. Doctors per 1000: Número de médicos disponibles por cada 1,000 habitantes en el país.
-13. Hospital Beds per 1000: Número de camas hospitalarias disponibles por cada 1,000 habitantes en el país.
-14. Treatment Type: Tipo de tratamiento disponible para la enfermedad (e.g., farmacológico, quirúrgico, preventivo).
-15. Average Treatment Cost (USD): Costo promedio del tratamiento de la enfermedad en dólares estadounidenses.
-16. Availability of Vaccines/Treatment: Disponibilidad de vacunas o tratamientos para la enfermedad (e.g., "Sí", "No").
-17. Recovery Rate (%): Porcentaje de los pacientes que logran recuperarse de la enfermedad.
-18. DALYs: Años de vida ajustados por discapacidad (por sus siglas en inglés, Disability-Adjusted Life Years), una medida que combina el impacto de la mortalidad y la morbilidad.
-19. Improvement in 5 Years (%): Porcentaje de mejora en las estadísticas relacionadas con la enfermedad en un periodo de cinco años.
-20. Per Capita Income (USD): El ingreso promedio por persona en el país.
-21. Education Index: El nivel promedio de educación en el país.
-22. Urbanization Rate (%): Porcentaje de la población que vive en áreas urbanas.
+1. VIN (1-10) - El Número de Identificación del Vehículo, que identifica de manera única al vehículo.
+2. Condado - El condado donde el vehículo está registrado.
+3. Ciudad - La ciudad donde el vehículo está registrado.
+4. Estado - El estado donde el vehículo está registrado.
+5. Código Postal - El código postal asociado con la dirección de registro del vehículo.
+6. Año del Modelo - El año en que se fabricó el modelo del vehículo.
+7. Marca - El fabricante o marca del vehículo (por ejemplo, Tesla, Nissan).
+8. Modelo - El modelo específico del vehículo (por ejemplo, Model S, Leaf).
+9. Tipo de E.V. - Clasificación del vehículo eléctrico, como BEV (Vehículo Eléctrico de Batería) o PHEV (Vehículo Híbrido Enchufable).
+10. CAFV - Indica si el vehículo califica como Vehículo de Combustible Alternativo Limpio bajo criterios específicos.
+11. Autonomía Eléctrica - La distancia máxima que el vehículo puede recorrer solo con energía eléctrica, típicamente medida en millas.
+12. MSRP Base - El Precio de Venta Sugerido por el Fabricante antes de agregar opciones o características adicionales.
+13. Distrito Legislativo - El distrito legislativo en el que el vehículo está registrado, lo que posiblemente afecte los incentivos.
+14. ID del Vehículo DOL - Un identificador único asignado por el Departamento de Licencias del estado.
+15. Ubicación del Vehículo - Detalles específicos de la ubicación donde el vehículo está registrado o ubicado principalmente.
+16. Compañía Eléctrica - La compañía eléctrica que proporciona energía a la ubicación del vehículo.
+17. Tracto del Censo 2020 - El área geográfica definida por la Oficina del Censo de EE. UU. para análisis demográficos.
 
 ## IMPORTANTE COGER EL CSV DESDE EL ENLACE DE KAGGLE
-Descargar CSV desde Kaggle este enlace https://www.kaggle.com/datasets/malaiarasugraj/global-health-statistics?select=Global+Health+Statistics.csv
+Descargar CSV desde Kaggle este enlace https://www.kaggle.com/datasets/ironwolf437/electric-vehicle-population-in-usa/data?select=data.csv
