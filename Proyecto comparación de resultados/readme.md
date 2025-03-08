@@ -13,3 +13,7 @@
 - **region**: Área residencial del beneficiario en los EE. UU. (noreste, sureste, suroeste, noroeste)
 
 - **charges**: Costos médicos individuales facturados por el seguro de salud
+
+### Fuente de los datos
+
+Los datos utilizados en este proyecto provienen del siguiente conjunto de datos de Kaggle: [Insurance Dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance/data?select=insurance.csv)
